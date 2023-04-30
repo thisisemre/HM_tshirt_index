@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def make_graph(x,y,x_label,y_label,tittle):
 
-    plt.bar(y, x, color='green', width=0.8)
+    plt.bar(x, y, color='green', width=0.8)
 
     plt.xlabel(x_label)
 
